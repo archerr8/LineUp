@@ -1,0 +1,112 @@
+body{
+	font-family: Raleway;
+	/* background: #E0B0FF;/* #CF9FFF; */ */
+     height: 100%;
+    /*  background: #1c92d2;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #2f80ed, #1d2680);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #2f80ed, #1d2680); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background: #9CECFB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0052D4, #65C7F7, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* 4ca2cd */
+    
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: auto;
+}
+
+h1{
+	background: #003153;
+	color: white;
+	margin: 0;
+	font-size: 25px;
+	/* text-align: center; */
+	padding: 10px 20px;
+	text-transform: uppercase;
+	/* font-size: 25px; */
+	font-weight: normal;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+li{
+	background: #fff;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 500;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	/* padding-left: 13px; */
+}
+
+input{
+	font-size: 18px;
+	background: #f7f7f7;
+	color: #2980b9;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: none;
+}
+
+input:focus{
+	background: #fff;
+	width: 100%;
+	border: 2px solid #2980b9;
+	box-shadow: 1px 1px 1px gray;
+	outline: none;
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+#container{
+	/* border: 2px solid gray; */
+	width: 380px;
+	background: #f7f7f7;
+	margin: 100px auto;
+	box-shadow: 5px 5px 5px rgba(100, 100, 100, 0.5);
+	border: rgba(100, 100, 100, 0.5);
+}
+
+.completed{
+   color: gray;
+   text-decoration: line-through;
+}
+
+span{
+	background: #ef4c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: black;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+	width: 0;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+}
+
+.fa-pen-fancy{
+	float: right;
+	size: 10px;
+}
+
+::placeholder{
+	font-family: Dancing Script;
+	font-size: 26px;
+	color: teal;
+	opacity: 0.6;
+
+}
